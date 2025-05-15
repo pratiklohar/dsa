@@ -17,7 +17,7 @@ class LinkedList {
 
     Node head; // Head of the linked list
 
-    //Method to insert a node at the end of the list.
+    // Method to insert a node at the end of the linked list.
     public void insert(int data) {
 
         Node newNode = new Node(data);
@@ -102,7 +102,7 @@ class LinkedList {
         while (current != null) {
             next = current.next;    // Store next.
             current.next = prev;    // Reverse the link.
-            prev= current;          // Move prev to current.
+            prev = current;          // Move prev to current.
             current = next;         // Move current to next.
         }
         head = prev;  // Update head to the last node.
