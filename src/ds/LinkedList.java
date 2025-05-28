@@ -1,5 +1,7 @@
 package ds;
-
+/**
+ * Head and Tail doesn't exist in reality, we call first node in the list as head and last node of list which is pointing to null as tail.
+ * */
 class LinkedList {
 
     // Node class represents each element in the list.
