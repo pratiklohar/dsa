@@ -19,6 +19,6 @@ class BubbleSort {
         return arr;
     }
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(BubbleSort.sort(new int[]{12, 4, 2, 32, 0, 5})));
+        System.out.println(Arrays.toString(sort(new int[]{12, 4, 2, 32, 0, 5})));
     }
 }
